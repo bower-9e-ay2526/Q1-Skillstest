@@ -1,0 +1,69 @@
+ body {
+            font-family: 'Courier New', Courier, monospace, sans-serif;
+            background-image: url(robot.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 50px;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+
+        }
+
+        .container {
+            width: 70%;
+            height: 70%;
+            max-width: 600px;
+            background-color: rgba(245, 245, 245, 0.8);
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        h1, h3 {
+            color: #0057a3;
+            text-align: center;
+        }
+
+         button {
+            background-color: #0057a3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            transition: all 0.3s ease;
+        }
+
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+
+        footer p {
+            text-align: center;
+            font-size: 10px;
+        }
